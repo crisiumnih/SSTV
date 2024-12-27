@@ -15,7 +15,6 @@ typedef float Image[HEIGHT][WIDTH][3];
 Image image;
 Image freq_image;
 
-/*       IMAGE         */  
 
 
 
@@ -47,7 +46,8 @@ short int *buffer= NULL;
 
 const int header_length = sizeof(struct wav_header);
 
-/*       AUDIO         */  
+
+/*      Functions       */ 
 
 void ReadImage(char *filename, Image img){
     FILE *origin;
